@@ -5,5 +5,5 @@ A goal of this code was to implement a full pipeline from getting data to train 
 
 For future keep in mind:
 * When training one should run through whole train and whole val, currently it does not. So results are not consistent.
-* Currently multiprocessing is CPU bound, lowering image resolution might help a lot.
+* Currently multiprocessing is limited by CPU (not GPU, at least on my machine), lowering image resolution might help a lot.
 * Hyperparameters for model are default, might not be optimal.
